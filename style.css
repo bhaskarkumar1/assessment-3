@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(160, 156, 156,0.5);
+}
+nav{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div{
+    
+}
+
+nav h1{
+    text-align: center;
+    padding:7% ;
+
+}
+nav p span{
+    
+    background-color: black;
+    color: #fff;
+    /* padding: 2%; */
+
+}
+
+
+.content{
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 10%;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.large-con-1{
+width: 62%;
+height:55vh;
+background-color: #fff;
+
+
+}
+
+.small-con-1{
+    width: 35%;
+    height: 45vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.large-con-2{
+    width: 62%;
+    height: 55vh;
+
+    background-color: #fff;
+    
+    }
+
+.last-con{
+    width: 35%;
+    height: 40vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+    
+    .small-con-2{
+        width: 100%;
+        height: 38vh;
+        background-color: rgb(214, 213, 212);
+        position: relative;
+        top: -25%;
+    }
+
+   
+        
+        .small-con-3{
+            width: 100%;
+            height: 21vh;
+    
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            top: -15%;
+        }
+
+.img-bg{
+    height: 50%;
+    background-image: url("anant-nag.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.large-con-2 .img-bg{
+    background-image: url("leh.jpeg");
+    background-position: top;
+
+}
+
+.footer{
+    /* padding: 1%; */
+    /* height: 8vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.content-tiles{
+    padding: 2%;
+    text-align: justify;
+}
+
+
+.content-tiles h2{
+    padding: 1% 0;
+}
+
+.content-tiles p{
+    padding: 1% 0;
+}
+
+.readmore{
+    padding: 1%;
+    border-radius: 7px;
+    border:2px solid black;
+    background-color: #fff;
+}
+.zero{
+    background-color: #000;
+    color: #fff;
+    padding: 4px;
+
+}
+.date{
+    color: grey;
+}
+
+.tintin{
+    height: 60%;
+    background: url("p1.jpg");
+    background-position: top ;
+    background-size: cover;
+    
+}
+.text{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    padding: 0 1%;
+}
+
+.small-con-2 div{
+    height: 16.5%;
+/* background-color: aqua; */
+border: 0.1px solid rgb(237, 232, 232);
+}
+
+.pop{
+    background-color: rgb(169, 165, 165);
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.list img{
+    width: 10%;
+    height: 70%;
+    
+    
+}
+sudo{
+    padding: 0 5px;
+}
+
+
+.tag{
+    height: 30%;
+background-color: rgb(169, 165, 165);
+padding: 2%;
+    
+}
+
+.filter{
+    padding: 2%;
+}
+
+.first{
+    background-color: #000;
+    color: #fff;
+}
+.filter span{
+    margin: 10px;
+    background-color: rgb(214, 206, 206);
+}
+
+
+#first{
+    background-color: #000;
+    color: #fff;
+}
+@media screen and (max-width:767px){
+    .content{
+        /* flex-wrap: nowrap; */
+        padding: 0 5%;
+
+    }
+
+    .large-con-1,.large-con-2 {
+        width: 100%;
+        height:80vh;
+    }
+    .small-con-1{
+        width: 100%;
+        height: 45vh;
+        background-color: aquamarine;
+    }
+    .last-con{
+        width: 100%;
+        gap: 20px;
+        /* margin-bottom: 50px; */
+    }
+
+    .small-con-2,.small-con-3{
+        position: static;
+        
+    } 
+
+
+}
